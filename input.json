@@ -1,0 +1,15 @@
+[
+    {
+        "organisation": "ETH",
+        "username": "andreaci",
+        "password": "!2Mch4U!aint",
+        "proxy": null,
+        "save_credentials": true,
+        "type": "training",
+        "weekday": "Tu",
+        "start_time": "08:00",
+        "trainer": "",
+        "facility": "Sport Center Polyterrasse",
+        "sport_id": 45686
+    }
+]

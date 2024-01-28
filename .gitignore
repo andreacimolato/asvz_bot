@@ -1,0 +1,38 @@
+# Virtual env
+.venv
+venv
+
+# Ansible-Vault
+.secret
+
+# files to exclude
+*_bak
+*.bak
+*.tmp
+*.log
+*.png
+
+# vim intermediary files
+*.swp
+
+# Editor configuration
+.idea
+.vscode
+
+# OS X
+.DS_Store
+
+.asvz-bot.json
+
+# ASDF
+.tool-versions
+
+# Config files
+*.env
+*-env
+*-docker-compose.yaml
+docker-compose-*.yaml
+
+# Pytest
+.pytest_cache
+__pycache__
