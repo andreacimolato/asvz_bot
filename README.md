@@ -56,31 +56,33 @@ source .venv/Scripts/activate
 python3 asvz_bot.py -h
 ```
 
-### Examples
-
-Enroll by lesson ID and save credentials (locally in `.asvz-bot.json`)
-
+### Change input.jason file
 ```bash
-python3 asvz_bot.py --organisation "ETH" --username "flbuetle" --save-credentials lesson 196346
+[
+    {
+        "organisation": "your_insitution",
+        "username": "your_username",
+        "password": "your_password",
+        "proxy": null,
+        "save_credentials": true,
+        "type": "training",
+        "weekday": "Tu",
+        "start_time": "08:00",
+        "trainer": "",
+        "facility": "Sport Center Polyterrasse",
+        "sport_id": 45686
+    }
+]
 ```
+Where codes are:
+    45686 = Muscle Pump
+    45637 = Boxing
+    45645 = Cycling
+    45675 = Kondi
+    45705 = Swimming
+    ...
 
-Enroll by lesson ID and use saved credentials
 
-```bash
-python3 asvz_bot.py lesson 196346
-```
-
-Enroll by lesson attributes and use saved credentials
-
-```bash
-python3 asvz_bot.py training \
-  --weekday "Mo" \
-  --start-time "18:15" \
-  --trainer "Karin Hollenstein" \
-  --level "Fortgeschrittene" \
-  --facility "Sport Center Hönggerberg" \
-  45743
-```
 
 ## Docker
 
