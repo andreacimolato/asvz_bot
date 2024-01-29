@@ -818,7 +818,10 @@ def main():
             logging.error(e)
             continue  # Skip to the next entry if there's an error
 
-        chromedriver_path = r'.venv\Include\chromedriver-win64\chromedriver.exe'
+        try:
+            chromedriver_path = get_chromedriver_path()
+        except:
+            chromedriver_path = r'.venv\Include\chromedriver-win64\chromedriver.exe'
 
         # Determine the type of entry and create the enroller object
         if data['type'] == "lesson":

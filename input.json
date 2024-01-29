@@ -11,5 +11,18 @@
         "trainer": "",
         "facility": "Sport Center Polyterrasse",
         "sport_id": 45686
+    },
+    {
+        "organisation": "ETH",
+        "username": "andreaci",
+        "password": "!2Mch4U!aint",
+        "proxy": null,
+        "save_credentials": true,
+        "type": "training",
+        "weekday": "We",
+        "start_time": "12:15",
+        "trainer": "",
+        "facility": "Sport Center Polyterrasse",
+        "sport_id": 45675
     }
 ]

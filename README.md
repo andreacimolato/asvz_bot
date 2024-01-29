@@ -34,6 +34,7 @@ You need to install the following:
 
 - [Python 3](https://www.python.org/downloads/)
 - [Chrome](https://support.google.com/chrome/answer/95346) or [Chromium](https://www.chromium.org/getting-involved/download-chromium)
+- [ChromeDriver](https://chromedriver.chromium.org/home)
 
 ### First time
 
@@ -41,16 +42,17 @@ You need to install the following:
 cd src
 python3 -m pip install virtualenv
 python3 -m venv .venv
-source .venv/bin/activate
+source .venv/Scripts/activate
 python3 -m pip install -r requirements.txt
 python3 asvz_bot.py -h
 ```
+Move the ChromeDriver extracted folder to src\.venv\Include\
 
 ### After the first time
 
 ```bash
 cd src
-source .venv/bin/activate
+source .venv/Scripts/activate
 python3 asvz_bot.py -h
 ```
 
